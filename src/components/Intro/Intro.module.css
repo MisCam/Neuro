@@ -1,4 +1,30 @@
 .container {
-    background: url("../../assets/bg.png") center center;
-    background-size: cover;
+    position: relative;
+    background: url('../../assets/Intro_bg.png');
+    height: 850px;
+}
+
+.welcome_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 90px;
+    margin-left: 115px;
+}
+
+.title { 
+    font-size: 55px;
+    font-family: 'Roboto-Bold';
+    color: white;
+    margin-bottom: 25px;
+}
+
+.text {
+    width: 260px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: 'Roboto-Regular';
+    color: white;
+    line-height: 30px;
 }

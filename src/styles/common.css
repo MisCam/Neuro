@@ -1,8 +1,15 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
-    margin: 0;
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+}
+
+.empty_space {
+    height: 189px;
+    width: 100%;
+    background: #F0FAF7;
 }

@@ -1,0 +1,62 @@
+.normal {
+    width: 260px;
+    height: 52px;
+}
+
+.small {
+    width: 182px;
+    height: 36px;
+}
+
+.very_small {
+    width: 167px;
+    height: 40px;
+}
+
+.black_solid {
+    background: black;
+}
+
+.white_solid {
+    background: white;
+}
+
+.transparent_button {
+    background: transparent;
+}
+
+.white_border {
+    border: 2px solid #F6F9E5;
+}
+
+.black_border {
+    border: 2px solid black;
+}
+
+.transparent_border {
+    border: none;
+}
+
+.white_font {
+    color: white;
+}
+
+.black_font {
+    color: black;
+}
+
+.body_color_font {
+    color: #C47B59;
+}
+
+.normal_border_radius {
+    border-radius: 5px;
+}
+
+.small_border_radius {
+    border-radius: 2px;
+}
+
+.no_border_radius{
+    border-radius: 0px;
+}

@@ -9,11 +9,9 @@ function App() {
   return (
     <div>
       <Intro />
+      <div className="empty_space"></div>
     </div>
   );
 }
 
 export default App;
-
-// npm install clsx – для классов
-// npm i -D typescript-plugin-css-modules – для работы css modules + ts
