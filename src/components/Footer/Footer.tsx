@@ -1,7 +1,6 @@
 import React from "react";
 
 import PageLayout from "../PageLayout";
-import Header from "./Header";
 import Button from "../Button";
 import {
   BUTTON_BACKGROUND,
@@ -11,19 +10,14 @@ import {
   BUTTON_FONT
 } from "../Button/Button";
 
-import styles from "./Intro.module.css";
+import styles from "./Footer.module.css";
 
-const Intro = (): React.ReactElement => (
+const Footer = (): React.ReactElement => (
   <div className={styles.container}>
     <PageLayout>
-      <Header></Header>
-      <div className={styles.welcome_text}>
+      <div className={styles.text_block}>
         <label className={styles.title}>
-          Health in <div>your pocket.</div>
-        </label>
-        <label className={styles.text}>
-          Functional gum and mints to energize, calm and focus you in the
-          moment.
+            Refresh your<div>state of mind.</div>
         </label>
         <Button
           size={BUTTON_SIZE.w260h52}
@@ -31,11 +25,11 @@ const Intro = (): React.ReactElement => (
           border_radius={BUTTON_BORDER_RADIUS.b2px}
           border_color={BUTTON_BORDER.transparent}
           background_color={BUTTON_BACKGROUND.black_solid}
-          text="SHOP"
+          text="Get Neuro"
         ></Button>
       </div>
     </PageLayout>
   </div>
 );
 
-export default Intro;
+export default Footer;

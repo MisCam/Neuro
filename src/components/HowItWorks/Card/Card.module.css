@@ -1,0 +1,40 @@
+.card {
+    width: 290px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    margin-top: 37px;
+    margin-bottom: 42px;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.blue_bg {
+    background: #005466;
+}
+
+.pink_bg {
+    background: #F7D8BF;
+}
+
+.light_blue_bg {
+    background: #F1FAF6;
+}
+
+.blue_color {
+    color: #64BAA1;
+}
+
+.body_color {
+    color: #C47B59;
+}
+
+.white_color {
+    color: #F6F9E5;
+}

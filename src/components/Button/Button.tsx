@@ -8,17 +8,22 @@ export const BUTTON_BACKGROUND = {
   black_solid: styles.black_solid,
   white_solid: styles.white_solid,
   transparent: styles.transparent_button,
+  border_bottom: styles.border_bottom,
 } as const;
 
 export const BUTTON_BORDER = {
   white_border: styles.white_border,
   black_border: styles.black_border,
+  green_bottom_border: styles.green_bottom_border,
+  black_bottom_border: styles.black_bottom_border,
   transparent: styles.transparent_border,
+  body_color_border: styles.body_color_border,
 } as const;
 
 export const BUTTON_FONT = {
     white_font: styles.white_font,
     black_font: styles.black_font,
+    green_font: styles.green_font,
     body_color_font: styles.body_color_font,
   } as const;
 
@@ -29,9 +34,11 @@ export const BUTTON_BORDER_RADIUS = {
 } as const;
 
 export const BUTTON_SIZE = {
-    normal: styles.normal,
-    small: styles.small,
-    very_small: styles.very_small,
+    w260h52: styles.w260h52,
+    w182h36: styles.w182h36,
+    w167h40: styles.w167h40,
+    w150h40: styles.w150h40,
+    w120h40: styles.w120h40,
 } as const;
 
 type ButtonBackground = typeof BUTTON_BACKGROUND[keyof typeof BUTTON_BACKGROUND];

@@ -2,6 +2,9 @@ import React from 'react';
 
 import Logo from '../../../assets/Logo.png';
 import cn from 'clsx';
+import Bag from '../../../assets/Bag.png';
+import Icon from '../../Icon';
+import { ICON_HEIGHT } from '../../Icon/Icon';
 
 import styles from './Header.module.css';
 
@@ -17,6 +20,7 @@ const Header = (): React.ReactElement => (
         <ul className={cn(styles.rightMenu, styles.list)}>
             <a>Subscription</a>
             <a>Sign In</a>
+            <Icon width={ICON_HEIGHT.h25} image={Bag}/>
         </ul>
     </header>
 )

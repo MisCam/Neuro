@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    background-color: #005466;
+    height: 1051px;
+}
+
+.wave {
+    position: absolute;
+    top: -100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo {
+    position: absolute;
+    left: 0;
+    top: -240px;
+}

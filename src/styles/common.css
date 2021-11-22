@@ -13,3 +13,22 @@ html, body {
     width: 100%;
     background: #F0FAF7;
 }
+
+.cookies {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 72px;
+    z-index: 15;  
+    padding: 0 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cookies a {
+    margin-left: 15px;
+}

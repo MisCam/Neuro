@@ -1,0 +1,11 @@
+.container {
+    position: relative;
+    background: #FCF2F0;
+    height: 670px;
+}
+
+.photo {
+    position: absolute;
+    left: 0;
+    top: 107px;
+}
